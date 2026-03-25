@@ -1,0 +1,279 @@
+# TenXVA / AI Growth Hackers — Business Configuration
+# Updated March 16, 2026 — Authority Content Engine
+# Philosophy: Less volume, higher quality, more dialed in
+# Content Mix: 40% pure value, 25% use cases, 20% industry insight, 15% business
+# Cadence: 1 post/day, 2 articles/week (Tue/Thu), 1 newsletter/week (Wed)
+
+business_name: "TenXVA"
+brand: "Using AI to Scale"
+future_brand: "AI Growth Hackers"
+contact: "justin@usingaitoscale.com"
+website: "usingaitoscale.com"
+linkedin: "https://www.linkedin.com/in/jbellsolutions/"
+
+# ============================================================
+# CONTENT PHILOSOPHY (NEW — drives everything)
+# ============================================================
+content_philosophy:
+  core_principle: >
+    Content exists to build authority and trust through genuine value.
+    Business outcomes (leads, DMs, clients) are a BYPRODUCT of consistently
+    excellent content. They are never the goal of any individual post.
+    Most posts should have zero commercial angle whatsoever.
+
+  content_mix:
+    pure_value: 40  # AI discoveries, experiments, tool reviews. ZERO business mention.
+    use_cases: 25   # Real projects with specific tools, timelines, results. Business context is natural.
+    industry_insight: 20  # Trends, contrarian takes, commentary. Justin's unique lens.
+    business: 15    # The ONLY content where placement/hiring is mentioned. Insight first.
+
+  storytelling_framework: "Mueller"
+  mueller_principles:
+    - "Open with scene, not lesson"
+    - "One story, one insight — go deeper, not wider"
+    - "Stay in 'I' longer than comfortable"
+    - "Use parenthetical asides to reveal character"
+    - "Trust the reader to scale the story"
+    - "Find uncontrived spectacles"
+    - "Discernment over volume — kill your darlings"
+
+  newsletter_principles:
+    - "Lead with specific, concrete story — not abstraction"
+    - "Always answer 'So what?' — the 'Why it matters' bridge"
+    - "Feature real humans doing real things with AI (highest engagement)"
+    - "Specificity Stack: name the tool, state the time, quantify the result"
+    - "Personality separates. Neutral = forgettable."
+    - "Screenshot This principle: every post needs a saveable element"
+
+  the_bar: >
+    Would a busy executive save this post? If no, it's not ready.
+    Would this post be valuable if TenXVA didn't exist? If no, rewrite it.
+
+# ============================================================
+# POSITIONING (updated for authority, not sales)
+# ============================================================
+positioning:
+  core_message: >
+    Justin Bellware is an AI implementation practitioner who builds AI-powered
+    teams, tests AI tools daily, and shares what actually works. He runs a
+    business that places AI-trained overseas talent into companies — but his
+    content is about sharing genuine insights, not pitching services.
+  differentiator: >
+    Unlike most AI content creators who regurgitate news or sell courses,
+    Justin shares insights from actually DOING the work — placing AI talent,
+    building agent teams, testing tools, and implementing AI workflows across
+    industries. Every insight comes from direct experience.
+  for_the_audience: >
+    Business owners and operators who want practical AI knowledge from someone
+    who's in the trenches every day. Not theory. Not hype. Just what works,
+    what doesn't, and what's coming next.
+  platform_teaser: >
+    Building AI Growth Hackers — a marketplace where businesses can find and
+    hire certified AI freelancers. Launching soon. Mentioned occasionally and
+    naturally, never as a pitch.
+
+primary_offer:
+  product: "AI VA Placement"
+  placement_fee: "$1,000 one-time"
+  what_you_get: >
+    A fully trained AI VA placed into your business. They've completed a
+    30-day AI bootcamp, know Claude Code, Cursor, ClickUp Brain, and the
+    full AI stack. They come ready to produce.
+  ongoing_rate: "$5-10/hour (paid directly to the VA)"
+  guarantee: "If they don't perform, we replace them. Period."
+  content_note: >
+    This offer should ONLY appear in the 15% business content category.
+    It should never be the focus of pure value, use case, or industry
+    insight posts. When it appears, it should be background context in
+    a story, never the headline.
+
+training_offer:
+  product: "30-Day AI Bootcamp"
+  price: "$300/month per team member"
+  commitment: "Month-to-month (cancel anytime)"
+  guarantee: "Double their output in 30 days or your money back"
+  mechanism: >
+    For businesses that already have a team and want to upskill them on AI.
+    Hands-on 30-day bootcamp with live coaching, custom AI workflows, and
+    measurable before/after results.
+  content_note: "Rarely mentioned in content. This is a backend offering."
+
+future_platform:
+  name: "AI Growth Hackers"
+  type: "Two-sided marketplace for AI freelancer talent"
+  launch_timeline: "30 days from now"
+  content_note: >
+    Mention naturally when relevant. Never pitch it. Frame it as something
+    Justin is building — the audience should be curious about it, not sold on it.
+
+roles_served:
+  - "Sales (AI-powered prospecting, CRM automation, pipeline management)"
+  - "Marketing (content creation, social media, lead generation, analytics)"
+  - "Operations (process automation, project management, reporting)"
+  - "Software Development (full-stack, AI-assisted coding, rapid prototyping)"
+  - "Recruiting (candidate screening, outreach, pipeline automation)"
+  - "Customer Support (AI-powered responses, ticket automation)"
+
+# ============================================================
+# CASE STUDIES (updated — story material, not pitch material)
+# ============================================================
+case_studies:
+  usage_note: >
+    These are STORY MATERIAL for the 25% use case content. They should be told
+    using the Mueller storytelling framework — scene first, insight after. They
+    should NOT be listed as proof points or used as sales ammunition. And they
+    should be supplemented with FRESH micro-stories from daily work.
+
+  stories:
+    - title: "Operations Manager Running 5 AI Agent Teams"
+      scene: "The moment she showed me her Claude dashboard with 5 active agent teams running simultaneously"
+      result: "Taking over recruiting operations and project management for the entire company"
+      insight: "One trained AI operator can replace what used to take an entire department"
+      specificity_stack:
+        tools: ["Claude Code", "Claude Cowork"]
+        timeline: "30 days from onboarding to running 5 agent teams"
+        quantified_result: "5 AI agent teams managed by one person"
+
+    - title: "Startup: Prototype to Alpha in 5 Days"
+      scene: "Day one — nothing built. Day five — alpha test ready with a group of testers lined up"
+      result: "One week away from launching with paid subscribers"
+      insight: "An AI-trained developer compresses months of work into days"
+      specificity_stack:
+        tools: ["Claude Code", "Cursor"]
+        timeline: "5 days from zero to alpha"
+        quantified_result: "Ready for paid subscribers in under 2 weeks"
+
+    - title: "Insurance Agency: Custom CRM in 48 Hours"
+      scene: "The agency owner's face when I showed him the live CRM on day three"
+      result: "Fully custom-built CRM, no SaaS subscription, built exactly to spec"
+      insight: "What agencies quote 6 weeks for, an AI-trained dev delivered in 2 days"
+      specificity_stack:
+        tools: ["Claude Code"]
+        timeline: "48 hours"
+        quantified_result: "Custom CRM vs. $50K+ agency quote"
+
+  fresh_story_sources: >
+    Generate new micro-stories from: tools tested this week, workflows discovered,
+    client problems solved, AI experiments run, team wins, things that didn't work
+    (failures are high-engagement). Fresh stories always beat recycled case studies.
+
+talent_regions:
+  regions:
+    - region: "Philippines"
+      strengths: "Operations, customer support, project management, marketing"
+    - region: "Middle East"
+      strengths: "Technical development, engineering, data analysis"
+    - region: "South America"
+      strengths: "Development, design, bilingual support, time zone alignment with US"
+  rate_range: "$5-10/hour"
+  comparison: "US equivalent roles cost $50-150/hour"
+  content_note: "Only relevant in 15% business content. Never the headline."
+
+# ============================================================
+# AUDIENCE
+# ============================================================
+audience:
+  primary: >
+    Business owners and operators who want practical AI knowledge. They follow
+    Justin because he consistently shares things worth knowing — tools, techniques,
+    insights, and real stories from the trenches. Some of them eventually become
+    clients, but that's a byproduct of trust, not a content strategy.
+  secondary: >
+    AI-curious professionals, startup founders, and agency owners who want to
+    stay ahead on AI implementation without wading through hype and noise.
+  what_they_want:
+    - "Practical AI insights they can use this week"
+    - "Real stories about what works and what doesn't"
+    - "Tool recommendations from someone who tests them"
+    - "A perspective on AI that's grounded in practice, not theory"
+    - "Frameworks and templates they can save and reference"
+    - "An expert who admits what he doesn't know and shares his learning process"
+
+# ============================================================
+# VOICE (updated for authority content)
+# ============================================================
+voice:
+  tone: "Knowledgeable peer sharing what he's learning. Not guru. Not salesperson."
+  personality: >
+    The friend in your network who's always 3 steps ahead on AI and shares what
+    he finds. Curious. Opinionated but not dogmatic. Uses parenthetical asides.
+    Admits when he's wrong or surprised. Shares both wins and things that didn't work.
+  perspective: >
+    First person. Justin's voice. Speaking from direct experience — building with
+    AI tools, managing AI teams, and seeing what actually works across industries.
+    Not lecturing. Sharing.
+  content_angle: >
+    Content should make the reader think: "I learned something valuable today."
+    NOT "This person is trying to sell me something." The business should be
+    INVISIBLE in 85% of content and background context in the other 15%.
+  never:
+    - "DM me [KEYWORD] CTAs — this is engagement bait"
+    - "Hard CTAs (Book a call, Buy today, Link in bio)"
+    - "Hashtags (dead per 2026 algorithm)"
+    - "Hype or exaggeration (game-changing, revolutionary, mind-blowing)"
+    - "Generic AI advice that anyone could give"
+    - "Posts that read like ads disguised as content"
+    - "Starting posts with the takeaway instead of a scene/story"
+    - "Ending every post with a CTA — most should just END"
+    - "Recycling the same 3 case studies without fresh angles"
+    - "Referring to VAs as cheap labor — they're elite trained talent"
+  always:
+    - "Open with a scene, moment, or story (Mueller framework)"
+    - "Include specific tools, numbers, and timelines (Specificity Stack)"
+    - "Write for saves — include frameworks and practical takeaways"
+    - "Add genuine personality — parenthetical asides, humor, honesty"
+    - "Share both successes AND failures/surprises"
+    - "Trust the reader to draw their own conclusions"
+    - "End cleanly — no tacked-on CTAs unless genuinely organic"
+  copywriter_dna_emphasis:
+    - "bill_mueller: Storytelling, curiosity, scene-first narrative"
+    - "alex_hormozi: Direct value, tactical frameworks, specific numbers"
+    - "brian_kurtz: Authority through depth of experience, industry stories"
+    - "liam_ottley: AI/automation focused, modern, tool-specific"
+    - "jay_abraham: Strategic positioning, big-picture frameworks"
+    - "jon_buchan: Pattern interrupts, personality, unconventional angles"
+    - "tom_bilyeu: Personal transformation, vulnerability, learning journeys"
+
+# ============================================================
+# CTA PHILOSOPHY (completely reworked)
+# ============================================================
+ctas:
+  philosophy: >
+    The best content doesn't need a CTA. If someone reads a genuinely valuable
+    post and wants to work with Justin, they'll find him. CTAs should be the
+    exception, not the rule. When they appear, they must feel like a natural
+    extension of the content, never an appendage.
+
+  distribution:
+    no_cta: "60%+ of posts — just end with a thought or clean close"
+    genuine_question: "20% — invite real discussion, not manufactured engagement"
+    save_prompt: "15% — when the post has a genuinely saveable element"
+    dm_invite: "5% MAX — only when organically relevant to the post content"
+
+  approved_when_organic:
+    - "What's your experience with this?"
+    - "Am I wrong here? Genuinely curious."
+    - "Save this for when you [specific situation]"
+    - "What would you add to this list?"
+    - "Happy to share more details — DM me anytime"
+
+  never_use:
+    - "DM me 'HIRE'"
+    - "DM me 'AI VA'"
+    - "Comment 'AI VA' below"
+    - "Comment '[ANY KEYWORD]' below"
+    - "Drop a [KEYWORD] in the comments"
+    - "Comment below and my AI will shoot it to you"
+    - "Book a call"
+    - "Link in bio"
+    - Any formulaic, templated CTA
+    - Any keyword-trigger CTA of any kind
+
+linkedin_algorithm_2026:
+  saves_are_king: "Bookmarks/saves carry more weight than likes — write save-worthy content"
+  no_hashtags: "Hashtags are dead — algorithm scans text via interest graphs"
+  links_in_post: "Links can go IN the post now, no need to hide in comments"
+  consistency: "Predictable schedule matters more than posting at a magic hour"
+  profile_authority: "360 Brew update — headline/about/experience must match content topics"
+  human_visuals: "If it looks like an ad, it gets treated like one"
+  polls_warning: "Polls get highest reach but WORST for follower growth and conversion"

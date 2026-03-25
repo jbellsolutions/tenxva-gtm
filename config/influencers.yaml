@@ -1,0 +1,112 @@
+# Seed list of influencers to track
+# The InfluencerDiscovery agent will grow this list over time
+
+influencers:
+  # AI / Automation space
+  - name: "Alex Hormozi"
+    linkedin: "https://www.linkedin.com/in/alexhormozi/"
+    topics: ["business scaling", "offers", "acquisition"]
+    priority: "high"
+
+  - name: "Liam Ottley"
+    linkedin: "https://www.linkedin.com/in/liamottley/"
+    topics: ["AI automation", "AI agencies", "agentic AI"]
+    priority: "high"
+
+  - name: "Greg Isenberg"
+    linkedin: "https://www.linkedin.com/in/gregisenberg/"
+    topics: ["startups", "AI products", "community building"]
+    priority: "high"
+
+  - name: "Sam Altman"
+    linkedin: "https://www.linkedin.com/in/samaltman/"
+    topics: ["AI", "OpenAI", "tech leadership"]
+    priority: "medium"
+
+  - name: "Dario Amodei"
+    linkedin: "https://www.linkedin.com/in/dario-amodei/"
+    topics: ["AI safety", "Anthropic", "Claude"]
+    priority: "medium"
+
+  - name: "Noah Kagan"
+    linkedin: "https://www.linkedin.com/in/noahkagan/"
+    topics: ["entrepreneurship", "marketing", "AppSumo"]
+    priority: "medium"
+
+  - name: "Justin Welsh"
+    linkedin: "https://www.linkedin.com/in/justinwelsh/"
+    topics: ["solopreneurship", "LinkedIn growth", "content strategy"]
+    priority: "high"
+
+  - name: "Sahil Bloom"
+    linkedin: "https://www.linkedin.com/in/sahilbloom/"
+    topics: ["business frameworks", "personal growth", "writing"]
+    priority: "medium"
+
+  - name: "Chris Donnelly"
+    linkedin: "https://www.linkedin.com/in/chrisdonnelly/"
+    topics: ["LinkedIn algorithm", "content strategy", "branding"]
+    priority: "high"
+
+  - name: "Jasmin Alic"
+    linkedin: "https://www.linkedin.com/in/jasminalic/"
+    topics: ["LinkedIn growth", "copywriting", "personal branding"]
+    priority: "high"
+
+  - name: "Matt Shumer"
+    linkedin: "https://www.linkedin.com/in/mattshumer/"
+    topics: ["AI agents", "prompt engineering", "AI startups"]
+    priority: "high"
+
+  - name: "Ruben Hassid"
+    linkedin: "https://www.linkedin.com/in/rubenhassid/"
+    topics: ["AI tools", "productivity", "AI for business"]
+    priority: "high"
+
+  - name: "Dan Koe"
+    linkedin: "https://www.linkedin.com/in/dankoe/"
+    topics: ["one-person business", "AI", "content creation"]
+    priority: "medium"
+
+  - name: "Codie Sanchez"
+    linkedin: "https://www.linkedin.com/in/codiesanchez/"
+    topics: ["business acquisition", "boring businesses", "entrepreneurship"]
+    priority: "medium"
+
+  - name: "Wes Kao"
+    linkedin: "https://www.linkedin.com/in/weskao/"
+    topics: ["management", "communication", "leadership"]
+    priority: "medium"
+
+  - name: "Nathan Latka"
+    linkedin: "https://www.linkedin.com/in/nathanlatka/"
+    topics: ["SaaS", "AI companies", "business metrics"]
+    priority: "low"
+
+  - name: "Dharmesh Shah"
+    linkedin: "https://www.linkedin.com/in/dharmesh/"
+    topics: ["AI", "HubSpot", "startups", "culture"]
+    priority: "medium"
+
+  - name: "Gary Vaynerchuk"
+    linkedin: "https://www.linkedin.com/in/garyvaynerchuk/"
+    topics: ["content strategy", "social media", "entrepreneurship"]
+    priority: "low"
+
+  - name: "Shawn Maguire"
+    linkedin: "https://www.linkedin.com/in/shawnmaguire1/"
+    topics: ["AI automation", "workflows", "productivity"]
+    priority: "medium"
+
+  - name: "Sam Parr"
+    linkedin: "https://www.linkedin.com/in/samparr/"
+    topics: ["media", "newsletters", "AI business"]
+    priority: "medium"
+
+scraping_config:
+  max_profiles_per_day: 50
+  posts_per_influencer: 5
+  min_engagement_for_analysis: 50  # Minimum likes to consider "top performing"
+  commenter_scrape_threshold: 100  # Only scrape commenters on posts with 100+ comments
+  discovery_frequency: "weekly"
+  discovery_count: 5  # Add 5 new influencers per week

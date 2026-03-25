@@ -1,0 +1,35 @@
+# Environment / Secrets
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Data (generated at runtime)
+data/
+*.log
+tenxva-gtm.log
+
+# Generated visuals
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Alex Hormozi",
+    "linkedin_name": "Alex Hormozi",
+    "topics": ["business", "scaling", "offers", "marketing", "frameworks", "gym_launch", "acquisition"],
+    "relationship": "inspiration",
+    "safe_to_tag": true,
+    "notes": "Major influencer. Only tag when directly referencing his frameworks ($100M Offers, etc.)."
+  },
+  {
+    "name": "Liam Ottley",
+    "linkedin_name": "Liam Ottley",
+    "topics": ["ai_agents", "automation", "ai_agency", "saas", "chatbots", "voiceflow"],
+    "relationship": "industry_peer",
+    "safe_to_tag": true,
+    "notes": "AI agency space leader. Tag when discussing AI agent businesses or automation agencies."
+  },
+  {
+    "name": "Greg Isenberg",
+    "linkedin_name": "Greg Isenberg",
+    "topics": ["startups", "community", "saas", "bootstrapping", "ai_tools"],
+    "relationship": "industry_peer",
+    "safe_to_tag": true,
+    "notes": "Startup/community builder. Tag when discussing community-led growth or startup tools."
+  },
+  {
+    "name": "Codie Sanchez",
+    "linkedin_name": "Codie Sanchez",
+    "topics": ["boring_businesses", "acquisition", "small_business", "contrarian"],
+    "relationship": "industry_peer",
+    "safe_to_tag": true,
+    "notes": "Boring businesses + contrarian investing. Tag when discussing business acquisition or operations."
+  },
+  {
+    "name": "Matt Shumer",
+    "linkedin_name": "Matt Shumer",
+    "topics": ["ai_agents", "openai", "claude", "ai_coding", "cursor", "ai_development"],
+    "relationship": "industry_peer",
+    "safe_to_tag": true,
+    "notes": "AI developer/builder. Tag when discussing AI coding tools or agent development."
+  },
+  {
+    "name": "Sam Altman",
+    "linkedin_name": "Sam Altman",
+    "topics": ["openai", "gpt", "ai_models", "ai_future", "chatgpt"],
+    "relationship": "industry_figure",
+    "safe_to_tag": false,
+    "notes": "Too big to tag directly. Reference by name for topical relevance."
+  },
+  {
+    "name": "Dario Amodei",
+    "linkedin_name": "Dario Amodei",
+    "topics": ["anthropic", "claude", "ai_safety", "ai_models"],
+    "relationship": "industry_figure",
+    "safe_to_tag": false,
+    "notes": "Reference by name. Tag only if directly quoting."
+  },
+  {
+    "name": "Tom Bilyeu",
+    "linkedin_name": "Tom Bilyeu",
+    "topics": ["mindset", "entrepreneurship", "personal_development", "impact_theory"],
+    "relationship": "inspiration",
+    "safe_to_tag": false,
+    "notes": "Very large audience. Mention by name, don't @tag."
+  },
+  {
+    "name": "Todd Brown",
+    "linkedin_name": "Todd Brown",
+    "topics": ["marketing", "funnels", "unique_mechanism", "copywriting", "offers"],
+    "relationship": "copywriter_dna",
+    "safe_to_tag": true,
+    "notes": "Marketing funnel expert. Tag when discussing unique mechanism or E5 method concepts."
+  },
+  {
+    "name": "Brian Kurtz",
+    "linkedin_name": "Brian Kurtz",
+    "topics": ["direct_response", "copywriting", "marketing", "overdeliver", "authority"],
+    "relationship": "copywriter_dna",
+    "safe_to_tag": true,
+    "notes": "Direct response legend. Tag when discussing overdelivering, authority building, or copywriting craft."
+  },
+  {
+    "name": "Jay Abraham",
+    "linkedin_name": "Jay Abraham",
+    "topics": ["marketing", "strategy", "partnerships", "business_growth", "preeminence"],
+    "relationship": "copywriter_dna",
+    "safe_to_tag": true,
+    "notes": "Marketing strategist. Tag when discussing strategic partnerships or growth strategies."
+  }
+]

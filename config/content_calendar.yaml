@@ -1,0 +1,248 @@
+# Content Calendar — Authority Content Engine
+# Updated March 16, 2026
+# Philosophy: Less volume, higher quality, more dialed in
+# Cadence: 1 post/day, 2 articles/week, 1 newsletter/week
+# Stories: implementing AI, lessons hiring/learning AI, working with developers
+# Storytelling: Mueller framework (scene first, insight after)
+# Authority: Todd Brown (mechanisms, E5) + Brian Kurtz (overdeliver, curator-connector)
+# CTA: 60% no CTA, 20% genuine question, 15% save prompt, 5% organic DM
+# Newsletter: Written from Audrey's perspective (ops manager / AI implementation)
+
+content_phase: "phase_1_authority_building"
+phase_1_focus: "Build authority through genuine value. Business outcomes are a byproduct."
+phase_2_focus: "AI Growth Hackers marketplace launch — shift to marketplace awareness"
+phase_transition_date: "2026-04-08"
+
+# ============================================================
+# FORMAT ROTATION (post writer cycles through these)
+# ============================================================
+format_styles:
+  post_formats:
+    - "story_driven"        # Mueller/Kurtz: Specific moment → narrative → principle
+    - "big_idea"            # Todd Brown: Bold contrarian claim → mechanism → proof
+    - "framework_system"    # Hormozi/Brown: Named framework, numbered steps, save-worthy
+    - "myth_busting"        # Brown/Kurtz: Challenge popular belief with evidence
+    - "behind_the_curtain"  # Kurtz: Real mechanics, numbers, failures, lessons
+    - "curated_lesson"      # Kurtz: Learned from someone else, attributed, with interpretation
+    - "blog_style"          # Long post 400-800 words: deeper exploration, 2-3 sections
+
+  newsletter_formats:
+    - "mueller_5_phase"
+    - "legend_story"
+    - "deep_dive_mechanism"
+    - "behind_the_numbers"
+    - "curated_synthesis"
+
+  article_formats:
+    - "seo_mechanism"
+    - "complete_guide"
+    - "contrarian_analysis"
+    - "practitioner_playbook"
+
+# ============================================================
+# PERSPECTIVE ROTATION
+# ============================================================
+perspective_mix:
+  first_person: 75   # "I tested...", "Last week I discovered..."
+  third_person_case_study: 25  # "The ops manager discovered...", "When the startup founder asked..."
+
+# ============================================================
+# VISUAL CONTENT STRATEGY
+# ============================================================
+visual_strategy:
+  target_visual_ratio: "30-40% of posts should have a visual"
+  visual_types:
+    - type: "quote_card"
+      description: "Bold insight on branded background"
+      best_for: ["big_idea", "trend_commentary"]
+      dimensions: "1080x1080"
+    - type: "carousel"
+      description: "Multi-slide PDF carousel"
+      best_for: ["framework_system", "blog_style"]
+      dimensions: "1080x1350"
+      slides: "8-12 slides optimal"
+    - type: "chart"
+      description: "Data visualization"
+      best_for: ["behind_the_curtain", "myth_busting"]
+      dimensions: "1080x1080"
+    - type: "comparison"
+      description: "Before/after or this-vs-that two-column layout"
+      best_for: ["myth_busting", "behind_the_curtain"]
+      dimensions: "1080x1080"
+    - type: "stat_card"
+      description: "Big number/stat with context"
+      best_for: ["behind_the_curtain", "big_idea"]
+      dimensions: "1080x1080"
+
+  brand_colors:
+    primary: "#1a1a2e"      # Dark navy background
+    accent: "#0096FF"       # Electric blue accent
+    text: "#ffffff"         # White text on dark
+    secondary: "#e94560"    # Red-orange for emphasis
+  font_family: "Inter"
+
+# ============================================================
+# DAILY QUOTAS — Dialed-in cadence (less volume, higher quality)
+# ============================================================
+daily_quotas:
+  posts: 1                          # 1 LinkedIn authority post per day
+  articles_per_week: 2              # 2 articles per week (Tuesday + Thursday)
+  article_days: ["tuesday", "thursday"]
+  newsletters_per_week: 1           # 1 newsletter per week (Wednesday)
+  newsletter_days: ["wednesday"]
+
+retry_config:
+  max_retries: 3                    # Max regeneration attempts per content type
+  posts_per_attempt: 2              # Generate 2 posts per attempt, pick the best
+  articles_per_attempt: 2           # Generate 2 articles per attempt, pick the best
+  newsletters_per_attempt: 2        # Generate 2 newsletters per attempt, pick the best
+
+# ============================================================
+# DAILY POST (1 per day — quality over volume)
+# ============================================================
+daily_posts:
+  post_1:
+    time: "09:00"
+    timezone: "America/New_York"
+    type: "varies"
+    content_mix: "story_driven_authority"
+    preferred_formats: ["story_driven", "behind_the_curtain", "curated_lesson", "blog_style", "big_idea"]
+    preferred_visuals: ["none", "comparison", "stat_card", "insight_card", "auto"]
+    description: >
+      One authority post per day. Every post is a story worth telling — about
+      implementing AI, lessons learned hiring and managing AI talent, working
+      with developers, or hard-won insights from building AI-powered teams.
+      Mueller framework: scene first, insight after. No filler. No fluff.
+      If it's not worth saving, it's not worth posting.
+    mueller_principles: ["scene_first", "one_insight", "specificity_stack", "discernment_over_volume"]
+    copywriter_dna: ["bill_mueller", "brian_kurtz", "alex_hormozi"]
+    word_count: [300, 600]
+    cta: "none_or_question"
+    story_themes:
+      - "Implementing AI in a real business — what actually happened"
+      - "Lessons learned trying to learn AI tools and workflows"
+      - "Lessons learned trying to hire AI and automation help"
+      - "Lessons learned working with developers"
+      - "The gap between what people think AI does and what it actually does"
+      - "Hiring for coachability vs hiring for skill"
+      - "What broke, what surprised us, what we'd do differently"
+      - "The structural shift from manual to systems-first"
+      - "Real conversations with real people about real AI implementation"
+    examples:
+      - "I hired a developer two weeks ago. Last Friday he quit. This morning I finished his work in 30 minutes."
+      - "Every time I hire someone and tell them to be coachable, they say yes. Then the job starts."
+      - "The moment I realized my ops manager was outperforming developers twice her salary..."
+      - "I spent $800 on a developer who wouldn't use Claude Code. Here's what that taught me."
+
+# ============================================================
+# NEWSLETTER (1x per week — Audrey's voice)
+# ============================================================
+newsletter:
+  frequency: "1x_per_week"
+  days: ["wednesday"]
+  time: "08:00"
+  timezone: "America/New_York"
+  platform: "linkedin_newsletter"
+  voice: "justin"  # Written in Justin's voice
+  sign_off_options:
+    - "Justin\nUsing AI to Scale"
+    - "TenXVA"
+    - "Using AI to Scale"
+  copywriter_dna: ["jay_abraham", "bill_mueller", "brian_kurtz"]
+  word_count: [1500, 2500]
+  format_rotation: ["mueller_5_phase", "legend_story", "deep_dive_mechanism", "behind_the_numbers", "curated_synthesis"]
+  structure: >
+    Mueller 5-Phase: Scene Entry (specific moment) → Escalation (build tension/curiosity)
+    → Pivot (the discovery/realization) → Insight (the lesson, now that reader has lived
+    the story) → Clean Close (a thought to sit with, not a pitch).
+
+    Written in Justin's voice. First person. He's in the trenches — managing
+    AI VAs, working with developers, running agent teams, observing what works
+    and what doesn't. His authority comes from being the operator and the CEO.
+  research_required: true
+  content_mix: "90% pure value and insight, 10% natural business context"
+  cta: "none_or_reflection_question"
+  save_worthy_requirement: "Every newsletter must include a saveable insight or framework"
+  visual_requirement: "Every newsletter must include at least 1 visual (stat_card, comparison, tip_list, or insight_card)"
+  story_themes:
+    - "What happened this week implementing AI — the real version"
+    - "A specific hire, a specific lesson, a specific outcome"
+    - "The pattern nobody is tracking yet"
+    - "What the VA industry shift actually means for small businesses"
+    - "The difference between surface-level AI adoption and structural change"
+    - "Student mentality vs fixed mindset — real examples from real hires"
+    - "What systems-first looks like in practice, not theory"
+
+# ============================================================
+# ARTICLE (2x per week — deep authority pieces)
+# ============================================================
+article:
+  frequency: "2x_per_week"
+  days: ["tuesday", "thursday"]
+  time: "10:30"
+  timezone: "America/New_York"
+  platform: "linkedin_article"
+  voice: "justin"  # Written in Justin's voice
+  copywriter_dna: ["todd_brown", "alex_hormozi", "bill_mueller"]
+  word_count: [1200, 2000]
+  format_rotation: ["seo_mechanism", "complete_guide", "contrarian_analysis", "practitioner_playbook"]
+  structure: >
+    Scene-first opening → Problem told as a story → Mechanism reveal (the insight)
+    → Deep analysis with multiple angles → Real-world proof → Clean close.
+
+    Articles are Justin's deep dives. Longer than posts, more analytical
+    than newsletters. The article should feel like an investment — something
+    worth 10 minutes of a busy person's time.
+  research_required: true
+  content_mix: "Primarily pure value and use case. SEO keywords attract discovery audience."
+  cta: "none_or_save_prompt"
+  story_themes:
+    - "Why the businesses winning the next 5 years are building differently"
+    - "The collision between traditional hiring and AI-native workflows"
+    - "What 'using AI' actually means vs what people think it means"
+    - "The VA model that works vs the VA model that's dying"
+    - "Why coachability matters more than technical skill in 2026"
+    - "The structural shift from manual-first to systems-first"
+    - "Real economics of AI implementation — actual numbers, actual timelines"
+
+# ============================================================
+# CONTENT THEMES (story-driven, experience-based)
+# ============================================================
+content_themes:
+  primary_story_themes:
+    - "Implementing AI — what actually happened, blow by blow"
+    - "Lessons learned trying to learn AI workflows myself"
+    - "Lessons learned trying to hire AI and automation help"
+    - "Lessons learned working with developers who resist AI"
+    - "The moment I realized [specific AI insight] — told as story"
+    - "What broke this week and what we learned from it"
+    - "The hire that worked vs the hire that didn't — and why"
+    - "Watching someone go from skeptic to operator in real time"
+
+  supporting_themes:
+    - "The structural shift from enhancement to replacement"
+    - "Student mentality vs fixed mindset in real hiring situations"
+    - "What 'coachable' actually looks like in practice"
+    - "The metric that actually predicts AI readiness"
+    - "Why surface-level AI adoption is worse than no adoption"
+    - "The compounding advantage of systems-first businesses"
+    - "Real numbers: what AI implementation actually costs and returns"
+    - "The gap between AI hype and AI reality — from the trenches"
+
+  avoid:
+    - "Generic AI tool listicles"
+    - "Regurgitated AI news commentary"
+    - "Anything that reads like a pitch disguised as content"
+    - "Keyword-trigger CTAs (Comment 'AI VA' below, etc.)"
+    - "Theory without personal experience backing it up"
+
+# ============================================================
+# POSTING QUEUE SLOTS (typed — auto-poster uses these)
+# ============================================================
+posting_slots:
+  post:
+    - "09:00"    # One authority post per day
+  article:
+    - "10:30"    # Mid-morning article (Tue + Thu)
+  newsletter:
+    - "08:00"    # Early morning newsletter (Wed)

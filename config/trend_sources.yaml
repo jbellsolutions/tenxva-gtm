@@ -1,0 +1,61 @@
+# Sources for the Trend Analyst agent to scrape daily
+# Each source includes a search query for Firecrawl and relevance context
+
+web_search_queries:
+  - query: "AI automation business news today"
+    category: "ai_automation"
+    relevance: "Core topic - AI tools for business productivity"
+
+  - query: "agentic AI enterprise adoption 2026"
+    category: "ai_automation"
+    relevance: "Directly related to what TenXVA builds"
+
+  - query: "virtual assistant AI tools productivity"
+    category: "va_productivity"
+    relevance: "Core audience - VA teams using AI"
+
+  - query: "remote team productivity AI 2026"
+    category: "remote_work"
+    relevance: "Target audience pain point"
+
+  - query: "Claude AI Anthropic news"
+    category: "tools"
+    relevance: "Primary tool in TenXVA bootcamp"
+
+  - query: "LinkedIn content strategy 2026"
+    category: "content_marketing"
+    relevance: "Platform we publish on"
+
+  - query: "AI replacing jobs outsourcing"
+    category: "contrarian_angles"
+    relevance: "Hot take content opportunities"
+
+  - query: "business automation ROI case studies"
+    category: "proof_stories"
+    relevance: "Social proof and case study angles"
+
+scrape_urls:
+  - url: "https://techcrunch.com/category/artificial-intelligence/"
+    category: "ai_news"
+    extract: "headlines_and_summaries"
+
+  - url: "https://www.theverge.com/ai-artificial-intelligence"
+    category: "ai_news"
+    extract: "headlines_and_summaries"
+
+  - url: "https://news.ycombinator.com"
+    category: "tech_community"
+    extract: "top_stories_ai_related"
+
+linkedin_search_topics:
+  - "AI automation"
+  - "virtual assistant training"
+  - "remote team productivity"
+  - "AI for business"
+  - "10x productivity"
+  - "Claude AI"
+  - "agentic AI"
+
+max_trends_per_day: 10
+lookback_days: 1  # Only scrape last 24 hours of content
+dedup_against_days: 7  # Don't repeat angles from last 7 days
